@@ -140,5 +140,26 @@ _**👍🏻 Frontend**_
 
 <img style="width: 100vh;" src='/docs/images/em_design.png' alt='디자인 시스템'/>
 
+## 서비스 소개 영상
+
+[서비스 소개 영상 보기](/docs/videos/em_introduce.MP4)
+
+<video src="/docs/videos/em_introduce.MP4" controls width="100%"></video>
 
 
+## 서비스 주제가 (AI 생성)
+
+[서비스 주제가 듣기](/docs/videos/em_Our_emotions.mp3)
+
+<audio src="/docs/videos/em_Our_emotions.mp3" controls width="100%"></audio>
+
+## 📝 프로젝트 짧은 회고
+
+| 이름 | 내용 |
+|---|---|
+| 박창조 | 내용 |
+| 박민경 | 내용 |
+| 엄예림 | 내용 |
+| 김수민 | 내용 |
+| 배승호 | 내용 |
+| 전종우 | 내용 |
