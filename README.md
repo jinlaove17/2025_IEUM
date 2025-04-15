@@ -1,10 +1,10 @@
+<div align="center">
+    <img width="100%;" src='/docs/images/em_thumbnail.png' alt='로고 이미지'/>
+</div>
+
 # ✨ 위치 기반 감정 소통 서비스, 이음✨
 
 > 🕰️ **진행 기간** : _2025. 02.24 ~ 2025. 04 .11 **(7주)**_
-
-<div align="center">
-<img width="100%;" src='/docs/images/em_thumbnail.png' alt='로고 이미지'/>
-</div>
 
 <div align="center">
 <img width="100%;" src='/docs/images/em_introduce.gif' alt='서비스 소개 gif'/>
@@ -94,64 +94,145 @@ _**👍🏻 Frontend**_
 # 🔭 주요 기능
 
 ## 1️⃣ 로그인
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
+
 > _"서비스 이용을 위한 인증 기능"_ 
+- kakao OAuth 2.0 로그인 기능
+- 토큰 만료 시 자동 로그인 기능
 
-<img style="width: 50%;" src='/docs/images/' alt='로그인'/>
+<div align="left">
+    <img width="50%;" src='/docs/images/' alt='로그인'/>
+</div>
 
-## 2️⃣ 이음글 작성 및 조회
-> _"현재 나의 위치를 기반으로 이음글을 작성하고 조회할 수 있는 기능"_ 
+## 2️⃣ 이음글 조회
+![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
 
-<img style="width: 50%;" src='/docs/images/' alt='이음글'/>
+> _"현재 나의 위치를 기반으로 이음글을 조회할 수 있는 기능"_ 
+- Naver Map API를 통해 현재 위치를 조회하고 이음글을 작성할 수 있는 기능
+- 클러스터링 기능을 통해 비슷한 위치의 이음글을 묶어서 조회할 수 있는 기능
+- 공감 기능을 통해 좋아요를 누른 이음글을 조회할 수 있는 기능
+- 정렬 (최신순, 공감순, 조회순) 기능
 
-## 3️⃣ AI 감정 분석
+<div align="left">
+    <img width="50%;" src='/docs/images/' alt='이음글'/>
+</div>
+
+## 3️⃣ 이음글 작성 - 현재 위치 조회 및 이음글 작성
+![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
+> _"이음글을 작성 시 현재 위치를 조회하여 이음글을 작성할 수 있는 기능"_ 
+
+- 현재 위치를 기반으로 작성하되, 정확한 위치를 찾지 못할 경우 조정하는 기능
+- 현재 GPS 기준 반경 50m 이내에서 조정하여 작성 하도록 제한
+
+<div align="left">
+    <img width="50%;" src='/docs/images/' alt='현재 위치 조회'/>
+</div>
+
+## 4️⃣ 이음글 작성 - 음악 삽입
+![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
+> _"이음글을 작성 시 음악을 삽입할 수 있는 기능"_ 
+
+- Spotify API를 통해 음악을 삽입할 수 있는 기능
+
+<div align="left">
+    <img width="50%;" src='/docs/images/' alt='음악 삽입'/>
+</div>
+
+## 5️⃣ 이음글 작성 - AI 감정 분석
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
+
 > _"이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능"_ 
 
+- AI 모델을 통해 작성한 글의 내용을 분석하여 6가지의 감정으로 분석
+  
+<div align="left">
+    <img width="50%;" src='/docs/images/' alt='AI 감정 분석'/>
+</div>
 
-## 4️⃣ 비속어 필터링
+## 6️⃣ 이음글 작성 - 비속어 필터링
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
+
 > _"이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능"_ 
 
-<img style="width: 50%;" src='/docs/images/' alt='비속어 필터링'/>
+- AI 모델을 통해 작성한 글의 내용을 분석하여 비속어 필터링
 
-## 5️⃣ 이음악 추천
+<div align="left">
+    <img width="50%;" src='/docs/images/' alt='비속어 필터링'/>
+</div>
+
+
+## 7️⃣ 이음악 추천
+![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
+
 > _"나의 감정에 어울리는 음악을 추천해주는 기능"_ 
 
 - 나의 주요 감정과 유사도 높은 음악 추천
 - 백터 데이터베이스에서 유사도를 계산하여 추천
+- PIP 재생 기능
 
-<img style="width: 100vh;" src='/docs/images/' alt='이음악 추천'/>
+<div align="left">
+    <img width="100%;" src='/docs/images/' alt='이음악 추천'/>
+</div>
 
-## 6️⃣ 감정 리포트
+## 8️⃣ 감정 리포트
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
+
 > _"나의 한달 감정 리포트를 조회할 수 있는 기능"_ 
 
-<img style="width: 100vh;" src='/docs/images/' alt='감정 리포트'/>
+<div align="left">
+    <img width="100%;" src='/docs/images/' alt='감정 리포트'/>
+</div>
 
-## 7️⃣ 나만의 감정 캘린더
+## 9️⃣ 나만의 감정 캘린더
+![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
+
 > _"나의 기록을 캘린더를 통해 확인할 수 있는 기능"_ 
 
-<img style="width: 100vh;" src='/docs/images/' alt='나만의 감정 캘린더'/>
+<div align="left">
+    <img width="100%;" src='/docs/images/' alt='나만의 감정 캘린더'/>
+</div>
+
+## 🔟 기타 페이지
+![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/FE-전종우-31A8FF)  ![](https://img.shields.io/badge/BE-엄예림-7dd581)
+
+> _"404, 이용약관, 개인정보처리방침, 소개 페이지"_ 
+
+<div align="left">
+    <img width="100%;" src='/docs/images/' alt='404'/>
+    <img width="100%;" src='/docs/images/' alt='이용약관'/>
+    <img width="100%;" src='/docs/images/' alt='소개 페이지'/>
+</div>
 
 # 📚 참고 문서
 
 ## ERD
 
-<img style="width: 100vh;" src='/docs/images/em_erd.png' alt='ERD'/>
+<div align="center">
+    <img width="100%;" src='/docs/images/em_erd.png' alt='ERD'/>
+</div>
 
 ## 디자인 시스템
 
-<img style="width: 100vh;" src='/docs/images/em_design.png' alt='디자인 시스템'/>
+<div align="center">
+    <img width="100%;" src='/docs/images/em_design.png' alt='디자인 시스템'/>
+</div>
 
 ## 서비스 소개 영상
 
-[서비스 소개 영상 보기](/docs/videos/em_introduce.MP4)
+[서비스 소개 영상 ↗️](/docs/videos/em_introduce.MP4)
 
-<video src="/docs/videos/em_introduce.MP4" controls width="100%"></video>
+<div align="center">
+    <video src="/docs/videos/em_introduce.MP4" controls width="100%"></video>
+</div>
 
 
 ## 서비스 주제가 (AI 생성)
 
-[서비스 주제가 듣기](/docs/videos/em_Our_emotions.mp3)
+[서비스 주제가 ↗️](/docs/videos/em_Our_emotions.mp3)
 
-<audio src="/docs/videos/em_Our_emotions.mp3" controls width="100%"></audio>
+<div align="center">
+    <audio src="/docs/videos/em_Our_emotions.mp3" controls width="100%"></audio>
+</div>
 
 ## 📝 프로젝트 짧은 회고
 
