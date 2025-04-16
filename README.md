@@ -10,28 +10,26 @@
 <img width="100%;" src='/docs/images/em_introduce.gif' alt='서비스 소개 gif'/>
 </div>
 
-
 ### ✅ 주요 기능 summary
 
 ---
 
-| 기능 | 설명 |
-|---|---|
-| 1️⃣ 로그인 | 서비스 이용을 위한 인증 기능 |
-| 2️⃣ 이음글 작성 및 조회 | 현재 나의 위치를 기반으로 이음글을 작성하고 조회할 수 있는 기능 |
-| 3️⃣ AI 감정 분석 | 이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능 |
-| 4️⃣ 비속어 필터링 | 이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능 |
-| 5️⃣ 이음악 추천 | 나의 감정에 어울리는 음악을 추천해주는 기능 |
-| 6️⃣ 감정 리포트 | 나의 한달 감정 리포트를 조회할 수 있는 기능 |
-| 7️⃣ 나만의 감정 캘린더 | 나의 기록을 캘린더를 통해 확인할 수 있는 기능 |
+| 기능                   | 설명                                                             |
+| ---------------------- | ---------------------------------------------------------------- |
+| 1️⃣ 로그인              | 서비스 이용을 위한 인증 기능                                     |
+| 2️⃣ 이음글 작성 및 조회 | 현재 나의 위치를 기반으로 이음글을 작성하고 조회할 수 있는 기능  |
+| 3️⃣ AI 감정 분석        | 이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능 |
+| 4️⃣ 비속어 필터링       | 이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능         |
+| 5️⃣ 이음악 추천         | 나의 감정에 어울리는 음악을 추천해주는 기능                      |
+| 6️⃣ 감정 리포트         | 나의 한달 감정 리포트를 조회할 수 있는 기능                      |
+| 7️⃣ 나만의 감정 캘린더  | 나의 기록을 캘린더를 통해 확인할 수 있는 기능                    |
 
 # 👨🏻‍💻 함께한 팀원
 
-
-| 전종우 | 박창조 | 박민경 | 엄예림 | 김수민 | 배승호 |
-|:---:|:---:|:---:|:----:|:---:|:---:|
-| [![](https://github.com/jinlaove17.png?width=150px)](https://github.com/jinlaove17) | [![](https://github.com/pcjo1202.png?width=150px)](https://github.com/pcjo1202) | [![](https://github.com/mmmmingb.png?width=150px)](https://github.com/mmmmingb) | [![](https://github.com/yenzip.png?width=150px)](https://github.com/yenzip) |[![](https://github.com/shoomon.png?width=150px)](https://github.com/shoomon) |[![](https://github.com/initmumu.png?width=150px)](https://github.com/initmumu) |
-| FE | FE | FE | BE | BE, AI | BE, AI, Infra |
+|                                       전종우                                        |                                     박창조                                      |                                     박민경                                      |                                   엄예림                                    |                                    김수민                                     |                                     배승호                                      |
+| :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| [![](https://github.com/jinlaove17.png?width=150px)](https://github.com/jinlaove17) | [![](https://github.com/pcjo1202.png?width=150px)](https://github.com/pcjo1202) | [![](https://github.com/mmmmingb.png?width=150px)](https://github.com/mmmmingb) | [![](https://github.com/yenzip.png?width=150px)](https://github.com/yenzip) | [![](https://github.com/shoomon.png?width=150px)](https://github.com/shoomon) | [![](https://github.com/initmumu.png?width=150px)](https://github.com/initmumu) |
+|                                         FE                                          |                                       FE                                        |                                       FE                                        |                                     BE                                      |                                    BE, AI                                     |                                  BE, AI, Infra                                  |
 
 # ✨ 시스템 아키텍처
 
@@ -43,12 +41,12 @@ _**👍🏻 Frontend**_
 
 ![vite](https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![pnpm](https://img.shields.io/badge/pnpm-339933?style=for-the-badge&logo=pnpm&logoColor=white)
-![React](https://img.shields.io/badge/React(19.0.0)-61DAFB?style=for-the-badge&logo=React&logoColor=white)
-![Mattermost](https://img.shields.io/badge/typescript(5.7.3)-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![reactrouter](https://img.shields.io/badge/reactrouter(7.1.3)-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
-![tailwindcss](https://img.shields.io/badge/tailwindcss(4.0.0)-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![zustand](https://img.shields.io/badge/zustand(5.0.3)-AF001E?style=for-the-badge&logo=zustand&logoColor=white)
-![Tanstack query](https://img.shields.io/badge/Tanstack_query(5.64.2)-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![React](<https://img.shields.io/badge/React(19.0.0)-61DAFB?style=for-the-badge&logo=React&logoColor=white>)
+![Mattermost](<https://img.shields.io/badge/typescript(5.7.3)-3178C6?style=for-the-badge&logo=typescript&logoColor=white>)
+![reactrouter](<https://img.shields.io/badge/reactrouter(7.1.3)-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white>)
+![tailwindcss](<https://img.shields.io/badge/tailwindcss(4.0.0)-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white>)
+![zustand](<https://img.shields.io/badge/zustand(5.0.3)-AF001E?style=for-the-badge&logo=zustand&logoColor=white>)
+![Tanstack query](<https://img.shields.io/badge/Tanstack_query(5.64.2)-FF4154?style=for-the-badge&logo=reactquery&logoColor=white>)
 ![axios](https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![googleanalytics](https://img.shields.io/badge/googleanalytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white)
 ![chartjs](https://img.shields.io/badge/chartjs-FF6384?style=for-the-badge&logo=chartjs&logoColor=white)
@@ -62,7 +60,6 @@ _**👍🏻 Frontend**_
 ![spring_JPA](https://img.shields.io/badge/spring_JPA-6DB33F?style=for-the-badge&logo=spring_JPA&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=Redis&logoColor=white)
-
 
 **👍🏻 Data/AI**
 
@@ -80,7 +77,6 @@ _**👍🏻 Frontend**_
 
 ![Jenkins](https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 
-
 **👍🏻 협업 Tool**
 
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
@@ -89,118 +85,130 @@ _**👍🏻 Frontend**_
 ![notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![gitlab](https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 
-
-
 # 🔭 주요 기능
 
 ## 1️⃣ 로그인
+
 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
 
-> _"서비스 이용을 위한 인증 기능"_ 
+> _"서비스 이용을 위한 인증 기능"_
+
 - kakao OAuth 2.0 로그인 기능
 - 토큰 만료 시 자동 로그인 기능
 
 <div align="left">
-    <img width="50%;" src='/docs/images/' alt='로그인'/>
+    <img width="40%;" src='/docs/images/em_login.gif' alt='로그인'/>
 </div>
 
 ## 2️⃣ 이음글 조회
+
 ![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
 
-> _"현재 나의 위치를 기반으로 이음글을 조회할 수 있는 기능"_ 
+> _"현재 나의 위치를 기반으로 이음글을 조회할 수 있는 기능"_
+
 - Naver Map API를 통해 현재 위치를 조회하고 이음글을 작성할 수 있는 기능
 - 클러스터링 기능을 통해 비슷한 위치의 이음글을 묶어서 조회할 수 있는 기능
 - 공감 기능을 통해 좋아요를 누른 이음글을 조회할 수 있는 기능
 - 정렬 (최신순, 공감순, 조회순) 기능
 
 <div align="left">
-    <img width="50%;" src='/docs/images/' alt='이음글'/>
+    <img width="40%;" src='/docs/images/em_map.gif' alt='이음글'/>
 </div>
 
 ## 3️⃣ 이음글 작성 - 현재 위치 조회 및 이음글 작성
+
 ![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
-> _"이음글을 작성 시 현재 위치를 조회하여 이음글을 작성할 수 있는 기능"_ 
+
+> _"이음글을 작성 시 현재 위치를 조회하여 이음글을 작성할 수 있는 기능"_
 
 - 현재 위치를 기반으로 작성하되, 정확한 위치를 찾지 못할 경우 조정하는 기능
 - 현재 GPS 기준 반경 50m 이내에서 조정하여 작성 하도록 제한
 
 <div align="left">
-    <img width="50%;" src='/docs/images/' alt='현재 위치 조회'/>
+    <img width="40%;" src='/docs/images/em_gps_write.gif' alt='현재 위치 조회'/>
 </div>
 
 ## 4️⃣ 이음글 작성 - 음악 삽입
+
 ![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
-> _"이음글을 작성 시 음악을 삽입할 수 있는 기능"_ 
+
+> _"이음글을 작성 시 음악을 삽입할 수 있는 기능"_
 
 - Spotify API를 통해 음악을 삽입할 수 있는 기능
 
 <div align="left">
-    <img width="50%;" src='/docs/images/' alt='음악 삽입'/>
+    <img width="40%;" src='/docs/images/em_music.gif' alt='음악 삽입'/>
 </div>
 
 ## 5️⃣ 이음글 작성 - AI 감정 분석
+
 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
 
-> _"이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능"_ 
+> _"이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능"_
 
 - AI 모델을 통해 작성한 글의 내용을 분석하여 6가지의 감정으로 분석
-  
+
 <div align="left">
-    <img width="50%;" src='/docs/images/' alt='AI 감정 분석'/>
+    <img width="40%;" src='/docs/images/em_ai_emotion.gif' alt='AI 감정 분석'/>
 </div>
 
 ## 6️⃣ 이음글 작성 - 비속어 필터링
+
 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
 
-> _"이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능"_ 
+> _"이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능"_
 
 - AI 모델을 통해 작성한 글의 내용을 분석하여 비속어 필터링
 
 <div align="left">
-    <img width="50%;" src='/docs/images/' alt='비속어 필터링'/>
+    <img width="40%;" src='/docs/images/em_bad_word.gif' alt='비속어 필터링'/>
 </div>
 
-
 ## 7️⃣ 이음악 추천
+
 ![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
 
-> _"나의 감정에 어울리는 음악을 추천해주는 기능"_ 
+> _"나의 감정에 어울리는 음악을 추천해주는 기능"_
 
 - 나의 주요 감정과 유사도 높은 음악 추천
 - 백터 데이터베이스에서 유사도를 계산하여 추천
 - PIP 재생 기능
 
 <div align="left">
-    <img width="100%;" src='/docs/images/' alt='이음악 추천'/>
+    <img width="40%;" src='/docs/images/em_music_recommend.gif' alt='이음악 추천'/>
+    <img width="40%;" src='/docs/images/em_music_player.gif' alt='이음악 플레이어'/>
 </div>
 
 ## 8️⃣ 감정 리포트
+
 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
 
-> _"나의 한달 감정 리포트를 조회할 수 있는 기능"_ 
+> _"나의 한달 감정 리포트를 조회할 수 있는 기능"_
 
 <div align="left">
-    <img width="100%;" src='/docs/images/' alt='감정 리포트'/>
+    <img width="40%;" src='/docs/images/em_emotion_report.gif' alt='감정 리포트'/>
 </div>
 
 ## 9️⃣ 나만의 감정 캘린더
+
 ![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
 
-> _"나의 기록을 캘린더를 통해 확인할 수 있는 기능"_ 
+> _"나의 기록을 캘린더를 통해 확인할 수 있는 기능"_
 
 <div align="left">
-    <img width="100%;" src='/docs/images/' alt='나만의 감정 캘린더'/>
+    <img width="40%;" src='/docs/images/em_calendar.gif' alt='나만의 감정 캘린더'/>
 </div>
 
 ## 🔟 기타 페이지
-![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/FE-전종우-31A8FF)  ![](https://img.shields.io/badge/BE-엄예림-7dd581)
 
-> _"404, 이용약관, 개인정보처리방침, 소개 페이지"_ 
+![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
+
+> _"404, 이용약관, 개인정보처리방침, 소개 페이지"_
 
 <div align="left">
-    <img width="100%;" src='/docs/images/' alt='404'/>
-    <img width="100%;" src='/docs/images/' alt='이용약관'/>
-    <img width="100%;" src='/docs/images/' alt='소개 페이지'/>
+    <img width="40%;" src='/docs/images/em_404.jpg' alt='404'/>
+    <img width="40%;" src='/docs/images/em_terms.gif' alt='이용약관'/>
+    <img width="40%;" src='/docs/images/em_onboarding.gif' alt='소개 페이지'/>
 </div>
 
 # 📚 참고 문서
@@ -225,7 +233,6 @@ _**👍🏻 Frontend**_
     <video src="/docs/videos/em_introduce.MP4" controls width="100%"></video>
 </div>
 
-
 ## 서비스 주제가 (AI 생성)
 
 [서비스 주제가 ↗️](/docs/videos/em_Our_emotions.mp3)
@@ -236,8 +243,8 @@ _**👍🏻 Frontend**_
 
 ## 📝 프로젝트 짧은 회고
 
-| 이름 | 내용 |
-|---|---|
+| 이름   | 내용 |
+| ------ | ---- |
 | 박창조 | 내용 |
 | 박민경 | 내용 |
 | 엄예림 | 내용 |
