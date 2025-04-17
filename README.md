@@ -40,14 +40,36 @@
 |FE | FE  | FE  |BE| BE, AI|  BE, AI, Infra  |
 
 
-| 이름 | 역할 |
-| ---- | ---- |
-| 전종우 | - 이음글 조회 <br> - 지도 클러스터링 <br> - 음악 관련 기능 <br> - 이음악 추천 페이지|
-| 박창조 | - 로그인 페이지 <br> - 이음글 작성 <br> - 감정 리포트 <br> - 이용약관 <br> - Google Analytics|
-| 박민경 | - 나만의 감정 캘린더 <br> 마이페이지 <br> - 온보딩 페이지 |
-| 엄예림 | - DB 설계 <br> - 인증/인가 <br> - 음악 API  <br> - 이미지 처리 <br> - 이음글 조회 |
-| 김수민 | - DB 설계 <br> - 감정 분석 |
-| 배승호 | - AI 감정 분석 <br> - AI 비속어 필터링  <br> - CI/CD 구축|
+<table style="width: 100%;">
+    <tr>
+        <th style="width: 20%;">이름</th>
+        <th style="width: 80%;">역할</th>
+    </tr>
+    <tr>
+        <td>전종우</td>
+        <td>- 이음글 조회 <br> - 지도 클러스터링 <br> - 음악 관련 기능 <br> - 이음악 추천 페이지</td>
+    </tr>
+    <tr>
+        <td>박창조</td>
+        <td>- 로그인 페이지 <br> - 이음글 작성 <br> - 감정 리포트 <br> - 이용약관 <br> - Google Analytics</td>
+    </tr>
+    <tr>
+        <td>박민경</td>
+        <td>- 나만의 감정 캘린더 <br> 마이페이지 <br> - 온보딩 페이지</td>
+    </tr>
+    <tr>
+        <td>엄예림</td>
+        <td>- DB 설계 <br> - 인증/인가 <br> - 음악 API  <br> - 이미지 처리 <br> - 이음글 조회</td>
+    </tr>
+    <tr>
+        <td>김수민</td>
+        <td>- DB 설계 <br> - 감정 분석</td>
+    </tr>
+    <tr>
+        <td>배승호</td>
+        <td>- AI 감정 분석 <br> - AI 비속어 필터링  <br> - CI/CD 구축</td>
+    </tr>
+</table>
 
 # ✨ 시스템 아키텍처
 
@@ -103,11 +125,11 @@ _**👍🏻 Frontend**_
 ![notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![gitlab](https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 
-# 🔭 주요 기능
-
 <div align="center">
     <img width="100%;" src='/docs/images/em_introduce.gif' alt='서비스 소개 gif'/>
 </div>
+
+# 🔭 주요 기능
 
 <details>
 <summary>
