@@ -2,34 +2,52 @@
     <img width="100%;" src='/docs/images/em_thumbnail.png' alt='로고 이미지'/>
 </div>
 
-# ✨ 위치 기반 감정 소통 서비스, 이음✨
+# 목차
 
-> 🕰️ **진행 기간** : _2025. 02.24 ~ 2025. 04 .11 **(7주)**_
+- [✨ 서비스 소개](#-서비스-소개)
+- [👨🏻‍💻 함께한 팀원](#-함께한-팀원)
+- [✨ 시스템 아키텍처](#-시스템-아키텍처)
+- [✨ 기술 스택](#-기술-스택)
+- [🔭 주요 기능](#-주요-기능)
+- [📚 참고 문서](#-참고-문서)
 
-<div align="center">
-<img width="100%;" src='/docs/images/em_introduce.gif' alt='서비스 소개 gif'/>
-</div>
+# ✨ 서비스 소개✨
+
+> _"위치 기반 감정 소통 서비스, 이음"_
+
+🕰️ **진행 기간** : _2025. 02.24 ~ 2025. 04 .11 **(7주)**_
+
+서비스 설명
+
 
 ### ✅ 주요 기능 summary
 
----
-
-| 기능                   | 설명                                                             |
-| ---------------------- | ---------------------------------------------------------------- |
-| 1️⃣ 로그인              | 서비스 이용을 위한 인증 기능                                     |
+| 기능| 설명|
+| ---- | ---- |
+| 1️⃣ 로그인| 서비스 이용을 위한 인증 기능|
 | 2️⃣ 이음글 작성 및 조회 | 현재 나의 위치를 기반으로 이음글을 작성하고 조회할 수 있는 기능  |
-| 3️⃣ AI 감정 분석        | 이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능 |
-| 4️⃣ 비속어 필터링       | 이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능         |
-| 5️⃣ 이음악 추천         | 나의 감정에 어울리는 음악을 추천해주는 기능                      |
-| 6️⃣ 감정 리포트         | 나의 한달 감정 리포트를 조회할 수 있는 기능                      |
-| 7️⃣ 나만의 감정 캘린더  | 나의 기록을 캘린더를 통해 확인할 수 있는 기능                    |
+| 3️⃣ AI 감정 분석   | 이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능 |
+| 4️⃣ 비속어 필터링  | 이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능|
+| 5️⃣ 이음악 추천| 나의 감정에 어울리는 음악을 추천해주는 기능   |
+| 6️⃣ 감정 리포트| 나의 한달 감정 리포트를 조회할 수 있는 기능   |
+| 7️⃣ 나만의 감정 캘린더  | 나의 기록을 캘린더를 통해 확인할 수 있는 기능 |
 
-# 👨🏻‍💻 함께한 팀원
+# 👨🏻‍💻 함께한 팀원 및 역할 분담
 
-|                                       전종우                                        |                                     박창조                                      |                                     박민경                                      |                                   엄예림                                    |                                    김수민                                     |                                     배승호                                      |
-| :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+|전종우|박창조|박민경|엄예림|김수민|배승호|
+| :---: | :---: | :---: | :----: | :---: | :---: |
 | [![](https://github.com/jinlaove17.png?width=150px)](https://github.com/jinlaove17) | [![](https://github.com/pcjo1202.png?width=150px)](https://github.com/pcjo1202) | [![](https://github.com/mmmmingb.png?width=150px)](https://github.com/mmmmingb) | [![](https://github.com/yenzip.png?width=150px)](https://github.com/yenzip) | [![](https://github.com/shoomon.png?width=150px)](https://github.com/shoomon) | [![](https://github.com/initmumu.png?width=150px)](https://github.com/initmumu) |
-|                                         FE                                          |                                       FE                                        |                                       FE                                        |                                     BE                                      |                                    BE, AI                                     |                                  BE, AI, Infra                                  |
+|FE | FE  | FE  |BE| BE, AI|  BE, AI, Infra  |
+
+
+| 이름 | 역할 |
+| ---- | ---- |
+| 전종우 | - 이음글 조회 <br> - 지도 클러스터링 <br> - 음악 관련 기능 <br> - 이음악 추천 페이지|
+| 박창조 | - 로그인 페이지 <br> - 이음글 작성 <br> - 감정 리포트 <br> - 이용약관 <br> - Google Analytics|
+| 박민경 | - 나만의 감정 캘린더 <br> 마이페이지 <br> - 온보딩 페이지 |
+| 엄예림 | - DB 설계 <br> - 인증/인가 <br> - 음악 API  <br> - 이미지 처리 <br> - 이음글 조회 |
+| 김수민 | - DB 설계 <br> - 감정 분석 |
+| 배승호 | - AI 감정 분석 <br> - AI 비속어 필터링  <br> - CI/CD 구축|
 
 # ✨ 시스템 아키텍처
 
@@ -87,9 +105,17 @@ _**👍🏻 Frontend**_
 
 # 🔭 주요 기능
 
+<div align="center">
+    <img width="100%;" src='/docs/images/em_introduce.gif' alt='서비스 소개 gif'/>
+</div>
+
+<details>
+<summary>
 ## 1️⃣ 로그인
 
 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
+
+</summary>
 
 > _"서비스 이용을 위한 인증 기능"_
 
@@ -99,10 +125,11 @@ _**👍🏻 Frontend**_
 <div align="left">
     <img width="40%;" src='/docs/images/em_login.gif' alt='로그인'/>
 </div>
+</details>
 
 ## 2️⃣ 이음글 조회
 
-![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
+![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
 
 > _"현재 나의 위치를 기반으로 이음글을 조회할 수 있는 기능"_
 
@@ -117,7 +144,7 @@ _**👍🏻 Frontend**_
 
 ## 3️⃣ 이음글 작성 - 현재 위치 조회 및 이음글 작성
 
-![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-김수민-7dd581)
 
 > _"이음글을 작성 시 현재 위치를 조회하여 이음글을 작성할 수 있는 기능"_
 
@@ -142,7 +169,7 @@ _**👍🏻 Frontend**_
 
 ## 5️⃣ 이음글 작성 - AI 감정 분석
 
-![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/AI-배승호-7dd581)
 
 > _"이음글을 작성 시 작성한 이음글의 감정을 분석하여 추가해주는 기능"_
 
@@ -154,7 +181,7 @@ _**👍🏻 Frontend**_
 
 ## 6️⃣ 이음글 작성 - 비속어 필터링
 
-![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-배승호-7dd581)
+![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/AI-배승호-7dd581)
 
 > _"이음글을 작성 시 비속어를 필터링하여 작성할 수 있는 기능"_
 
@@ -199,17 +226,19 @@ _**👍🏻 Frontend**_
     <img width="40%;" src='/docs/images/em_calendar.gif' alt='나만의 감정 캘린더'/>
 </div>
 
-## 🔟 기타 페이지
+## 🔟 기타
 
-![](https://img.shields.io/badge/FE-박민경-31A8FF) ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/FE-전종우-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
-
-> _"404, 이용약관, 개인정보처리방침, 소개 페이지"_
+- Not Found 페이지 ![](https://img.shields.io/badge/FE-전종우-31A8FF)
+- 이용약관 관리 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
+- 온보딩 페이지 ![](https://img.shields.io/badge/FE-박민경-31A8FF)
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_404.jpg' alt='404'/>
-    <img width="40%;" src='/docs/images/em_terms.gif' alt='이용약관'/>
-    <img width="40%;" src='/docs/images/em_onboarding.gif' alt='소개 페이지'/>
+    <img width="30%;" src='/docs/images/em_404.jpg' alt='404'/>
+    <img width="30%;" src='/docs/images/em_terms.gif' alt='이용약관'/>
+    <img width="30%;" src='/docs/images/em_onboarding.gif' alt='소개 페이지'/>
 </div>
+
+## 
 
 # 📚 참고 문서
 
@@ -245,9 +274,9 @@ _**👍🏻 Frontend**_
 
 | 이름   | 내용 |
 | ------ | ---- |
-| 박창조 | 내용 |
-| 박민경 | 내용 |
-| 엄예림 | 내용 |
-| 김수민 | 내용 |
-| 배승호 | 내용 |
-| 전종우 | 내용 |
+| 박창조 | _""_ |
+| 박민경 | _"좋은 팀원들과 재미있는 아이디어를 구현해볼 수 있어서 즐거웠습니다! React를 처음 사용하여 프로젝트를 구현하면서, 어려움을 겪기도 했었는데 팀원들의 도움으로 무사히 마칠 수 있었습니다. 예정보다 늦어진 배포로 많은 사용자 피드백을 받지는 못했지만, 그래도 사용자 피드백을 받았기 때문에 앞으로는 이를 반영하여 구현해보고 싶습니다."_ |
+| 엄예림 | _"서비스 배포 과정에서 수집된 사용자 피드백 덕분에 개선해야 할 점과 강점을 명확히 인식하며, 앞으로의 발전 방향을 구체적으로 재정립할 수 있는 값진 교훈을 얻었습니다."_ |
+| 김수민 | _"프로젝트를 진행하며 어려운 점도 많았지만 팀원들 덕분에 잘 마무리 할 수 있었던 것 같습니다. 더 해보고 싶은 기능도 있었고 아쉬움이 남는 부분도 있지만, 결과적으로는 예쁜 프로젝트 잘 완성한 것 같아서 뿌듯합니다. 다음 프로젝트에서는 이번 프로젝트의 경험을 바탕으로 더 재밌고 좋은 서비스 만들어보고 싶습니다!"_ |
+| 배승호 | _"빠른 개발 주기와 배포를 위해 초기에 애자일 개발 프레임워크를 도입하였는데, 체계가 없어보였던 애자일이 의외로 상당히 정교한 일정관리가 필요하다는 것을 알 수 있었습니다. 좌충우돌 애자일 개발기였지만, 이번 프로젝트에서 겪은 경험이 다음 프로젝트에서 더 나은 성과를 위한 초석이 될 것 같아 뜻 깊은 시간이었습니다."_ |
+| 전종우 | _"내용"_ |
