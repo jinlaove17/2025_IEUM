@@ -111,6 +111,7 @@ _**👍🏻 Frontend**_
 
 <details>
 <summary>
+
 ## 1️⃣ 로그인
 
 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
@@ -123,7 +124,7 @@ _**👍🏻 Frontend**_
 - 토큰 만료 시 자동 로그인 기능
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_login.gif' alt='로그인'/>
+    <img width="30%;" src='/docs/images/em_login.gif' alt='로그인'/>
 </div>
 </details>
 
@@ -139,7 +140,7 @@ _**👍🏻 Frontend**_
 - 정렬 (최신순, 공감순, 조회순) 기능
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_map.gif' alt='이음글'/>
+    <img width="30%;" src='/docs/images/em_map.gif' alt='이음글'/>
 </div>
 
 ## 3️⃣ 이음글 작성 - 현재 위치 조회 및 이음글 작성
@@ -152,7 +153,7 @@ _**👍🏻 Frontend**_
 - 현재 GPS 기준 반경 50m 이내에서 조정하여 작성 하도록 제한
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_gps_write.gif' alt='현재 위치 조회'/>
+    <img width="30%;" src='/docs/images/em_gps_write.gif' alt='현재 위치 조회'/>
 </div>
 
 ## 4️⃣ 이음글 작성 - 음악 삽입
@@ -164,7 +165,7 @@ _**👍🏻 Frontend**_
 - Spotify API를 통해 음악을 삽입할 수 있는 기능
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_music.gif' alt='음악 삽입'/>
+    <img width="30%;" src='/docs/images/em_music.gif' alt='음악 삽입'/>
 </div>
 
 ## 5️⃣ 이음글 작성 - AI 감정 분석
@@ -176,7 +177,7 @@ _**👍🏻 Frontend**_
 - AI 모델을 통해 작성한 글의 내용을 분석하여 6가지의 감정으로 분석
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_ai_emotion.gif' alt='AI 감정 분석'/>
+    <img width="30%;" src='/docs/images/em_ai_emotion.gif' alt='AI 감정 분석'/>
 </div>
 
 ## 6️⃣ 이음글 작성 - 비속어 필터링
@@ -188,7 +189,7 @@ _**👍🏻 Frontend**_
 - AI 모델을 통해 작성한 글의 내용을 분석하여 비속어 필터링
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_bad_word.gif' alt='비속어 필터링'/>
+    <img width="30%;" src='/docs/images/em_bad_word.gif' alt='비속어 필터링'/>
 </div>
 
 ## 7️⃣ 이음악 추천
@@ -202,8 +203,8 @@ _**👍🏻 Frontend**_
 - PIP 재생 기능
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_music_recommend.gif' alt='이음악 추천'/>
-    <img width="40%;" src='/docs/images/em_music_player.gif' alt='이음악 플레이어'/>
+    <img width="30%;" src='/docs/images/em_music_recommend.gif' alt='이음악 추천'/>
+    <img width="30%;" src='/docs/images/em_music_player.gif' alt='이음악 플레이어'/>
 </div>
 
 ## 8️⃣ 감정 리포트
@@ -213,7 +214,7 @@ _**👍🏻 Frontend**_
 > _"나의 한달 감정 리포트를 조회할 수 있는 기능"_
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_emotion_report.gif' alt='감정 리포트'/>
+    <img width="30%;" src='/docs/images/em_emotion_report.gif' alt='감정 리포트'/>
 </div>
 
 ## 9️⃣ 나만의 감정 캘린더
@@ -223,20 +224,15 @@ _**👍🏻 Frontend**_
 > _"나의 기록을 캘린더를 통해 확인할 수 있는 기능"_
 
 <div align="left">
-    <img width="40%;" src='/docs/images/em_calendar.gif' alt='나만의 감정 캘린더'/>
+    <img width="30%;" src='/docs/images/em_calendar.gif' alt='나만의 감정 캘린더'/>
 </div>
 
 ## 🔟 기타
 
-- Not Found 페이지 ![](https://img.shields.io/badge/FE-전종우-31A8FF)
-- 이용약관 관리 ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581)
-- 온보딩 페이지 ![](https://img.shields.io/badge/FE-박민경-31A8FF)
-
-<div align="left">
-    <img width="30%;" src='/docs/images/em_404.jpg' alt='404'/>
-    <img width="30%;" src='/docs/images/em_terms.gif' alt='이용약관'/>
-    <img width="30%;" src='/docs/images/em_onboarding.gif' alt='소개 페이지'/>
-</div>
+| Not Found 페이지 <br> ![](https://img.shields.io/badge/FE-전종우-31A8FF) | 이용약관 관리 <br> ![](https://img.shields.io/badge/FE-박창조-31A8FF) ![](https://img.shields.io/badge/BE-엄예림-7dd581) | 온보딩 페이지 <br> ![](https://img.shields.io/badge/FE-박민경-31A8FF) |
+| ---- | ---- | ---- |
+| <img width="100%;" src='/docs/images/em_404.jpg' alt='404'/> | <img width="100%;" src='/docs/images/em_terms.gif' alt='이용약관'/> | <img width="100%;" src='/docs/images/em_onboarding.gif' alt='소개 페이지'/> |
+| _존재하지 않는 페이지에 접속 시_ | _이용약관을 관리하는 기능_ | _서비스 첫 화면_ |
 
 ## 
 
