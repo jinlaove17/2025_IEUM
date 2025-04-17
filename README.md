@@ -313,21 +313,49 @@ _**👍🏻 Frontend**_
 
 </details>
 
+
+<details>
+<summary>
+
+## ✅ AI 활용 기능
+
+</summary>
+
+기능 설명  
+
+- 사용자가 이음글을 작성하면, 감정 분석 모델이 자동으로 감정을 분류
+- 기본 분류 결과는 UI 상에 자동 표시되며, 사용자는 필요 시 직접 감정을 수정(라벨링)할 수 있음
+- 사용자의 수정 이력(입력 텍스트 + 모델 감정 + 사용자 선택 감정)은 별도 저장되어 감정 분류 모델의 재학습 데이터로 활용 별도 저장되어 감정 분류 모델의 재학습 데이터로 활용
+
+도입 목적  
+
+- 모델의 초기 분류 결과에 대한 사용자 피드백을 자연스럽게 수집
+- 사용자 중심의 정제된 감정 데이터셋 확보
+- 지속적인 학습을 통해 개인화 및 문맥 인식 성능 향상
+
+활용 예시  
+
+- 감정 분류 모델 Fine-tuning 시, 사용자 수정 데이터를 고신뢰 라벨로 활용
+- 감정 카테고리 추가 시, 실제 사용자 선택 데이터를 기반으로 초기 학습
+
+</details>
+
+
 # 📚 참고 문서
 
-## ERD
+## 📊 ERD
 
 <div align="center">
     <img width="100%;" src='/docs/images/em_erd.png' alt='ERD'/>
 </div>
 
-## 디자인 시스템
+## 🎨 디자인 시스템
 
 <div align="center">
     <img width="100%;" src='/docs/images/em_design.png' alt='디자인 시스템'/>
 </div>
 
-## 서비스 소개 영상
+## 🎥 서비스 소개 영상
 
 [서비스 소개 영상 ↗️](/docs/videos/em_introduce.MP4)
 
@@ -335,7 +363,7 @@ _**👍🏻 Frontend**_
     <video src="/docs/videos/em_introduce.MP4" controls width="100%"></video>
 </div>
 
-## 서비스 주제가 (AI 생성)
+## 🎵 서비스 주제가 (AI 생성)
 
 [서비스 주제가 ↗️](/docs/videos/em_Our_emotions.mp3)
 
