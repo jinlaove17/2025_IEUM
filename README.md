@@ -65,7 +65,9 @@ _"이음은 위치 기반으로 감정을 기록하고, AI가 감정 분석과 �
     </tr>
     <tr>
         <td>배승호</td>
-        <td>- AI 감정 분석 <br> - AI 비속어 필터링  <br> - CI/CD 구축</td>
+        <td>- AI 감정 분석 <br> - AI 비속어 필터링  <br> - CI/CD 구축 <br>
+- MLOps 파이프라인 구축 <br>
+- 이음글 공감</td>
     </tr>
 </table>
 
