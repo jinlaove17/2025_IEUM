@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-em-black: #333333;
+  --color-em-white: #fdfdfd;
+  --color-em-gray-sm: #f4f4f4;
+  --color-em-gray-md: #eeeeee;
+  --color-em-gray: #dddddd; /* 회색 */
+  --color-em-marker: #ff0004; /* 마커 */
+  --color-em-radius: #dbbbff; /* 반경 */
+  --color-em-joy: #fff38a; /* 기쁨 */
+  --color-em-anticipation: #ffb5ff; /* 기대 */
+  --color-em-trust: #8eff98; /* 확신 */
+  --color-em-surprise: #ffbf60; /* 당황 */
+  --color-em-disgust: #888888; /* 혐오 */
+  --color-em-fear: #a788ba; /* 공포 */
+  --color-em-anger: #ff7676; /* 분노 */
+  --color-em-sadness: #86b0ff; /* 슬픔 */
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
+  background-color: var(--color-em-gray-sm);
+}
+
+:root {
+  --header-height: 3.5rem;
+  --navigation-bar-height: 4rem;
+}

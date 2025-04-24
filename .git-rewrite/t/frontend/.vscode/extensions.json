@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "steoates.autoimport",
+    "NuclleaR.vscode-extension-auto-import",
+    "usernamehw.errorlens",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind"
+  ]
+}
